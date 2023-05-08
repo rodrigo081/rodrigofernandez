@@ -1,0 +1,56 @@
+body{
+  background-color: linear-gradient(to right, rgb(20,147,220),(17,54,71));
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+  color: white;
+  position: absolute;
+  top:55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 15px;
+  width: 30%;
+}
+ fieldset{
+  border:1px solid dodgerblue;
+ }
+ legend{
+  border: 1px solid dodgerblue;
+  padding: 10px;
+  text-align: center;
+  background-color: dodgerblue;
+  border-radius: 8px;
+ }
+ .imputBox{
+  position: relative;
+  
+ }
+ .inputUser{
+  background:none;
+  border-bottom: 1px solid white;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  letter-spacing: 2px;
+ }
+ .labelinput{
+  /* animação das labels - nessa parte as labels ira se encaixar desntro dos inputs*/
+  position: absolute; /*vai ocupar apenas o elemento dela msm*/
+  top: 0px;
+  left: 0px;
+  pointer-events: none;
+  transition: 5px;
+ }
+
+ .inputUser: focus ~ .labelinput,
+ .inputUser: valid ~ .labelinput,{
+  top: -20px;
+  font-size: 20px;
+  color: dodgerblue;
+  
+ }
+
+ 

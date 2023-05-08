@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS externo (formulario) - 13, 17/04</title>
+  <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+  <header>
+    <!--cabeçalho-->
+
+  </header>
+  <main>
+    <!--meio-->
+
+  
+  <section class="box">
+    <form>
+      <fieldset>
+        <legend><strong>Formulário de cliente</strong></legend>
+        <br>
+        
+        <section class="inputBox">
+          <input type="text" name="nome" id="name" class="inputUser" required>
+          <label for="name" class="labelinput">Nome Completo</label>
+
+        </section>
+        <br>
+
+        <section class="inputBox">
+          <input type="text" name="email" id="email" class="inputUser" required ="seuemail@dominio.com">
+          <label for="name" class="labelinput">Email</label>
+        </section>
+        <br>
+        <section class="inputBox">
+          <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+          <label for="name" class="labelinput">Telefone</label>
+        </section>
+
+        <p>Sexo:</p>
+        <input type="radio" name="genero" id="feminino" value="feminino">
+        <label for="feminino">Feminino</label>
+        <br>
+
+        <input type="radio" name="genero" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label>
+        <br>
+
+        <input type="radio" name="genero" id="outro" value="outro">
+        <label for="outro">Outro</label>
+        <br>
+
+        <label for="data_nascimento"><strong>Ano de nascimento</strong>
+        </label>
+        <input type="date" name="data_nascimento" id="data_nascimento" required>
+        <br> <br> <br>
+
+        <section class="inputBox">
+          <input type="text" name="cidade" id="cidade" class="inputUser" required>
+          <label for="cidade" class="labelinput">Cidade</label>
+          <br><br>
+
+          <section class="inputBox">
+             <input type="text" name="estado" id="estado" class="inputUser" required>
+          <label for="estado" class="labelinput">Estado</label>
+            
+          </section>
+          <br><br>
+          <section  class="inputBox">
+
+            <input type="radio" name="genero" id="outro" value="outro">
+            <label for="outro">Outro</label>
+            <br>
+    
+             <input type="text" name="endereço" id="endereço" class="inputUser" required>
+          <label for="ender" class="labelinput">Endereço</label>
+          </section>
+          <br><br>
+
+          <input type="submit" value="Enviar formulário" id="enviar">
+        </section>
+      </fieldset>
+    </form>
+  </section>
+</main>
+  <footer>
+    <p class="copyright">&copy; Copyright Rodrigo Andres - 2023</p>
+  </footer>
+
+</body>
+
+</html>
