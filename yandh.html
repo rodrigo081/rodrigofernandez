@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="yandh.css">
+    <link href="WrathStyles.ttf" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img id="logo" src="yandh.png" width="200px" height="200px">
+        <h1 class="titulo-principal">Confeitaria Y and H</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Produtos</a></li>
+          <li><a href="index.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+        <form>
+            <label for="nomesobrenome">Nome e sobrenome:</label>
+            <input type="text" name="nome" id="nomesobrenome" class="input-padrao" placeholder="Seu nome e sobrenome" required >
+            <br>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" class="input-padrao" placeholder="seuemail@dominio.com" required >
+            <br>
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" name="telefone" id="telefone" class="input-padrao" placeholder="(XX) XXXX-XXXX" required >
+            <br>
+            <br>
+            <label for="mensagem">Mensagem:</label>
+            <textarea cols="70" rows="10" id="mensagem" placeholder="Digite seu texto aqui!" required ></textarea>
+
+            <section>
+                <p>Como prefere nosso contato?</p>
+
+                <label for="radio-email"><input type="radio" name="Contato" value="email" id="radio-email">Email</label>
+                <br>
+                <br>
+                <label for="radio-telefone"><input type="radio" name="Contato" value="telefone" id="radio-telefone">Telefone</label>
+                <br>
+                <br>
+                <label for="radio-whatsapp"><input type="radio" name="Contato" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+                <br>
+                <br>
+            </section>
+
+            <section>
+                <p>Qual horario prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </section>
+            <br>
+            <br>
+            <label class="checkbox">
+            <input type="checkbox">Gostaria de receber nossas novidades por e-mail?    
+            </label>
+
+            <input type="submit" value="Enviar formulário" class="enviar">
+        </form>
+    </main>
+
+    <footer>
+        <img id="logo" src="yandh.png">
+        <p class="copyright">&copy; Copyright -- Rodrigo Andres</p>
+    </footer>
+
+</body>
+</html>  
