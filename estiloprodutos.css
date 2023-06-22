@@ -1,0 +1,17 @@
+.cabeçalho{
+    background-color: purple;
+    width: auto;
+    height: 150px;
+
+}
+.conteudo{
+    background-color: darkorchid;
+    width: auto;
+    height: 700px;
+
+}
+.rodape{
+    background-color:blueviolet;
+    width: auto;
+    height: 150px;
+}
