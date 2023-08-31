@@ -1,0 +1,39 @@
+body{
+    background-color:#221b53 ;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size:50px;
+    font-style: italic;
+}
+.td_nome{
+    font-size: 30px;
+    color:rgb(132, 67, 185);
+}
+.td_nome1{
+    font-size: 30px;
+    color:rgb(252, 252, 252);
+}
+.td_trim{
+    font-size: 30px;
+    color:rgb(97, 0, 224);
+}
+.td_media{
+    font-size: 30px;
+    color:rgb(174, 0, 255);
+}
+.td{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    
+}
+.tdcolspan{
+    color:antiquewhite;
+    font-size: 30px;
+}
+
+table{
+    
+    text-align: center;
+
+}
